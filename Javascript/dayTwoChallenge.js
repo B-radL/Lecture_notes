@@ -83,7 +83,28 @@ if(typeof valueToCheck === "string") {
     console.log("Who are you??");
 }
 
-
+let myVariable = {
+    firstValue: "I am a string",
+    secondValue: 9001,
+    thirdValue: false,
+    fourthValue: {}
+}
+​
+let valueToCheck = myVariable.potato;
+​
+// typeof -> tells you the TYPE of something
+// if it === string -> console.log('It is a STRING')
+if (typeof valueToCheck === "string") {
+    console.log("It is a STRING");
+} else if (typeof valueToCheck === "number") {
+    console.log("It is a NUMBER");
+} else if (typeof valueToCheck === "boolean") {
+    console.log("It is a BOOL");
+} else if (typeof valueToCheck === "object") {
+    console.log("It is an OBJECT");
+} else {
+    console.log("Who ARE you??");
+}
 
 
 
